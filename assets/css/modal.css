@@ -1,0 +1,108 @@
+@import "common.css";
+
+/* Contact Us Modal Start */
+.modal-content {
+    max-width: 480px;
+    border: 1px solid var(--lighter);
+    border-radius: 5px;
+    background-color: var(--white);
+}
+.modal-header {
+    padding: 30px;
+    border-bottom: none;
+}
+.modal-header h5 {
+    font-family: var(--poppins-font);
+    font-weight: 700;
+    color: var(--inky);
+    letter-spacing: 0.4px;
+    margin-bottom: 0;
+}
+.modal-body {
+    padding: 0 30px;
+}
+.modal-body .form-control-box {
+    padding-bottom: 40px;
+}
+@media screen and (max-width:768px) {
+    .modal-body .form-control-box {
+        padding-bottom: 0;
+    }
+    .modal-body .form-control-box input[type=text] {
+        margin-top: 30px;
+    }
+    .modal-body .form-check {
+        padding-top: 30px;
+    }
+}
+.modal-body ::placeholder {
+    font-family: var(--poppins-font);
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: var(--dark);
+    letter-spacing: 0.4px;
+}
+.modal-body .form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 0 0 10px 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--dark);
+    font-family: var(--poppins-font);
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: var(--inky);
+    letter-spacing: 0.4px;
+}
+.modal-body .form-control:focus {
+    border: none;
+    border-bottom: 1px solid var(--dark);
+    outline: none;
+    box-shadow: none;
+}
+input:autofill {
+    background-color: var(--white);
+}
+input:-webkit-autofill {
+    background-color: var(--white);
+}
+.modal-body .form-check .form-check-label {
+    font-family: var(--poppins-font);
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: var(--darker);
+    opacity: 0.9;
+}
+.modal-body .form-check .form-check-input[type=checkbox] {
+    border: 2px solid var(--pink);
+    border-radius: 3px;
+}
+.modal-body .form-check .form-check-input[type=checkbox]:focus {
+    border: 2px solid var(--pink);
+    outline: none;
+    box-shadow: none;
+}
+.modal-body .form-check .form-check-input:checked {
+    background-color: var(--pink);
+}
+.modal-footer {
+    padding: 30px 30px 22px 30px;
+    border-top: none;
+}
+.modal-footer .btn.btn-primary {
+    width: 100%;
+    background: var(--pink);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--white);
+    height: 52px;
+    letter-spacing: 0;
+    transition: all 0.15s ease-in;
+    user-select: none;
+    margin: 0;
+}
+/* Contact Us Modal End */

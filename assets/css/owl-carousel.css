@@ -1,0 +1,71 @@
+@import "common.css";
+
+/* Owl Carousel Start */
+.owl-dots {
+    text-align: left;
+    padding-top: 40px;
+}
+.owl-dots button.owl-dot:first-child {
+    margin-left: 0;
+}
+.owl-dots button.owl-dot {
+    background-image: url('../images/carousel-dot-icon.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+    margin: 0 10px;
+}
+.owl-dots button.owl-dot.active {
+    background-image: url('../images/carousel-active-icon.svg') !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+.owl-slider-box .service-block {
+    background-color: var(--theme);
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 52px 24px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+.owl-slider-box .service-block img {
+    margin-bottom: 36px;
+}
+.owl-slider-box .service-block h4 {
+    color: var(--white);
+    margin-bottom: 20px;
+}
+.owl-slider-box .service-block p {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 54px;
+}
+.owl-slider-box .service-block button .arrow-icon {
+    display: inline;
+    width: 37px;
+    height: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.owl-slider-box .item:hover .service-block {
+    opacity: 1;
+    cursor: pointer;
+}
+/* Owl Carousel End */

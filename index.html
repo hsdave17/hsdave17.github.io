@@ -1,11 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+	<title>Fyle | Web Assignment</title>
+
+	<!-- Favicon Link -->
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png" />
+
+	<!-- Charset Metatag -->
+	<meta charset="utf-8" />
+
+	<!-- IE Metatag -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<!-- SEO Metatag -->
+	<meta name="description" content="Fyle Web Developer Assignment" />
+	<meta name="keywords" content="Fyle, HTML, CSS, JavaScript, jQuery, Bootstrap" />
+	<meta name="author" content="Harita Dave" />
+
+	<!-- Responsive Metatag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" />
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/vendor.min.css" />
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="assets/css/style.css" />
+	
 </head>
+
 <body>
-    <h1>Hello World</h1>
+	
+	<!-- Body Content Start -->
+	<div class="wrapper">
+
+		<!-- Main Section Start -->
+		<main class="main-section">
+			
+			<!-- Award Winning Section Start -->
+			<section class="award-winning-section">
+				<div class="container">
+					<div class="award-winning-box pt-100 pb-200">
+						<div class="title-box">
+							<h3>Award winning</h3>
+							<h1>Digital Marketing Agency</h1>
+							<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+							<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactUsModal">
+								CONTACT US
+							</button>
+						</div>
+						<div class="image-box">
+							<img class="img-fluid" src="assets/images/hero-img.png" alt="Digital Marketing Agency" width="487" height="737" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Award Winning Section End -->
+
+			<!-- What We Do Section Start -->
+			<section class="what-we-do-section">
+				<div class="container">
+					<div class="what-we-do-box">
+						<div class="title-box">
+							<h4>WHAT WE DO</h4>
+							<h2>Services provide for you</h2>
+						</div>
+						<div class="text-box">
+							<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+						</div>
+					</div>
+					<div class="owl-slider-box pb-200">
+						<div id="serviceCarousel" class="owl-carousel">
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img1.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>WEB DEVELOPMENT</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img2.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>Mobile App</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img3.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>WEB DEVELOPMENT</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img1.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>Mobile App</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img1.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>WEB DEVELOPMENT</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img2.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>Mobile App</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img3.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>WEB DEVELOPMENT</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img1.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>Mobile App</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img1.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>WEB DEVELOPMENT</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img2.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>Mobile App</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img3.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>WEB DEVELOPMENT</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+							<div class="item">
+								<img class="service-img" src="assets/images/service-img1.png" alt="" />
+								<div class="service-block">
+									<img src="assets/images/service-icon1.svg" alt="" width="57" height="57" />
+									<h4>Mobile App</h4>
+									<p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+									<button type="button" class="btn btn-white" onclick="visitSite()">
+										READ MORE&nbsp;<img class="arrow-icon" src="assets/images/arrow-icon.svg" alt="" width="37" height="10" />
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- What We Do Section End -->
+
+			<!-- Why Choose Us Section Start -->
+			<section class="why-choose-us-section">
+				<div class="container">
+					<div class="why-choose-us-box text-center pb-100">
+						<div class="title-box">
+							<h4>WHY CHOOSE US</h4>
+							<h2>Why We Are Best</h2>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="parameter-box">
+									<div class="parameter-image-box">
+										<img src="assets/images/clarified-vision-icon.svg" alt="" width="72" height="72" />
+									</div>
+									<h5>Clarified Vision & Target</h5>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="parameter-box">
+									<div class="parameter-image-box">
+										<img src="assets/images/high-performance-icon.svg" alt="" width="70" height="64" />
+									</div>
+									<h5>High Performance</h5>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="parameter-box">
+									<div class="parameter-image-box">
+										<img src="assets/images/maintain-security-icon.svg" alt="" width="68" height="74" />
+									</div>
+									<h5>Maintain Security</h5>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="parameter-box">
+									<div class="parameter-image-box">
+										<img src="assets/images/better-strategy-icon.svg" alt="" width="69" height="69" />
+									</div>
+									<h5>Better Strategy & Quality</h5>
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Why Choose Us Section End -->
+
+			<!-- Our Project Section Start -->
+			<section class="our-project-section">
+				<div class="container">
+					<div class="our-project-box text-center pb-200">
+						<div class="title-box">
+							<h4>Our project</h4>
+							<h2>Why We Are Best</h2>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-7">
+								<div class="tab-content">
+									<div id="project1" class="container tab-pane fade">
+										<div class="image-box">
+											<img class="img-fluid" src="assets/images/project-img1.jpg" alt="Project" />
+										</div>
+									</div>
+									<div id="project2" class="container tab-pane active">
+										<div class="image-box">
+											<img class="img-fluid" src="assets/images/project-img2.png" alt="Project" />
+										</div>
+									</div>
+									<div id="project3" class="container tab-pane fade">
+										<div class="image-box">
+											<img class="img-fluid" src="assets/images/project-img3.jpg" alt="Project" />
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-5">
+								<ul class="nav nav-pills" role="tablist">
+									<li class="nav-item">
+									  	<a class="nav-link" data-bs-toggle="pill" href="#project1">
+											<div class="project-detail-box">
+												<h5>Genderless Kei – Japan’s Hot</h5>
+												<p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+											</div>
+									  	</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link active" data-bs-toggle="pill" href="#project2">
+											<div class="project-detail-box">
+												<h5>Better Strategy & Quality</h5>
+												<p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+											</div>
+										</a>
+									</li>
+									<li class="nav-item">
+									  	<a class="nav-link" data-bs-toggle="pill" href="#project3">
+											<div class="project-detail-box">
+												<h5>Genderless Kei – Japan’s Hot</h5>
+												<p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Our Project Section End -->
+
+			<!-- Experts Growts Section Start -->
+			<section class="experts-growts-section">
+				<div class="container">
+					<div class="experts-growts-box text-center pb-200">
+						<div class="title-box">
+							<h4>Experts growts</h4>
+							<h2>Our Company Growth</h2>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="growth-box">
+									<img src="assets/images/heart-icon.svg" alt="" width="39" height="35" />
+									<h1>199 +</h1>
+									<h5>Staticfied Customers</h5>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="growth-box">
+									<img src="assets/images/clock-icon.svg" alt="" width="35" height="35" />
+									<h1>1591 +</h1>
+									<h5>Days Of Operation</h5>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="growth-box">
+									<img src="assets/images/tick-icon.svg" alt="" width="35" height="35" />
+									<h1>283 +</h1>
+									<h5>Complete Project</h5>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="growth-box">
+									<img src="assets/images/award-icon.svg" alt="" width="36" height="35" />
+									<h1>75 +</h1>
+									<h5>Win Awards</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Experts Growts Section End -->
+
+			<!-- Clients Feedback Section Start -->
+			<section class="clients-feedback-section">
+				<div class="container">
+					<div class="clients-feedback-box text-center pb-100">
+						<div class="title-box">
+							<h4>client's feedback</h4>
+							<h2>people say's about us !</h2>
+						</div>
+						<figure>
+							<blockquote class="blockquote">
+							  <p>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+							</blockquote>
+							<figcaption class="blockquote-footer">
+								<span>JANNAT TUMPA</span> - COO, AMERIMAR ENTERPRISES, INC.
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+			<!-- Clients Feedback Section End -->
+
+		</main>
+		<!-- Main Section End -->
+
+		<!-- Footer Start -->
+		<footer class="footer-section">
+			<div class="container">
+				<div class="footer-brand-box">
+					<div class="row">
+						<div class="col-sm-12 col-lg-6">
+							<div class="row">
+								<div class="col-sm-12 col-md-4">
+									<a href="#">
+										<img src="assets/images/footer-icon1.svg" alt="" />
+									</a>
+								</div>
+								<div class="col-sm-12 col-md-4">
+									<a href="#">
+										<img src="assets/images/footer-icon2.svg" alt="" />
+									</a>
+								</div>
+								<div class="col-sm-12 col-md-4">
+									<a href="#">
+										<img src="assets/images/footer-icon3.svg" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-lg-6">
+							<div class="row">
+								<div class="col-sm-12 col-md-4">
+									<a href="#">
+										<img src="assets/images/footer-icon4.svg" alt="" />
+									</a>
+								</div>
+								<div class="col-sm-12 col-md-4">
+									<a href="#">
+										<img src="assets/images/footer-icon5.svg" alt="" />
+									</a>
+								</div>
+								<div class="col-sm-12 col-md-4">
+									<a href="#">
+										<img src="assets/images/footer-icon6.svg" alt="" />
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer End -->
+
+		<!-- Contact Us Modal Start -->
+		<div class="modal fade" id="contactUsModal">
+			<div class="modal-dialog modal-dialog-centered modal-md">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Talk to us</h5>
+					</div>
+					<form action="https://getform.io/f/jbwxznva" method="post">
+						<div class="modal-body">
+							<div class="form-control-box">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Work email*" required />
+							</div>
+							<div class="form-control-box">
+								<div class="row">
+									<div class="col-sm-12 col-md-6">
+										<input type="text" class="form-control" id="firstName" name="firstName" placeholder="First name*" required />
+									</div>
+									<div class="col-sm-12 col-md-6">
+										<input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last name*" required />
+									</div>
+								</div>
+							</div>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" id="agree" name="agree" value="yes" />
+								<label class="form-check-label" for="agree">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-primary">Contact Us</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Us Modal End -->
+
+	</div>
+	<!-- Body Content End -->
+
+	<!-- Bootstrap JS -->
+	<script src="assets/js/vendor.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="assets/js/script.js" defer></script>
+
 </body>
+
 </html>

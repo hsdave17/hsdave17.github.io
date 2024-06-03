@@ -1,0 +1,195 @@
+@import "button.css";
+@import "common.css";
+@import "modal.css";
+@import "owl-carousel.css";
+
+/* Award Winning Section Start */
+.award-winning-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.award-winning-box .title-box {
+    max-width: 610px;
+}
+.award-winning-box .title-box p {
+    margin-bottom: 60px;
+}
+@media screen and (max-width:768px) {
+    .award-winning-box {
+        flex-flow: column;
+    }
+    .award-winning-box .title-box p {
+        margin-bottom: 30px;
+    }
+    .award-winning-box .image-box {
+        padding-top: 30px;
+    }
+}
+/* Award Winning Section End */
+
+/* What We Do Section Start */
+.what-we-do-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 74px 0;
+}
+.what-we-do-box .title-box {
+    max-width: 450px;
+}
+.what-we-do-box .title-box h2 {
+    margin-bottom: 0;
+}
+.what-we-do-box .text-box {
+    max-width: 584px;
+}
+@media screen and (max-width:768px) {
+    .what-we-do-box {
+        flex-flow: column;
+        padding: 0 0 40px 0;
+    }
+    .what-we-do-box .text-box {
+        padding-top: 40px;
+    }
+}
+/* What We Do Section End */
+
+/* Why Choose Us Section Start */
+.why-choose-us-box .title-box h2, 
+.our-project-box .title-box h2 {
+    margin-bottom: 60px;
+}
+.parameter-box {
+    text-align: left;
+}
+.parameter-image-box {
+    width: 74px;
+    height: 74px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:768px) {
+    .why-choose-us-box .title-box h2, 
+    .our-project-box .title-box h2 {
+        margin-bottom: 40px;
+    }
+    .parameter-box p {
+        margin-bottom: 40px;
+    }
+} 
+/* Why Choose Us Section End */
+
+/* Our Project Section Start */
+.our-project-box .image-box img {
+    border-radius: 5px;
+}
+.nav.nav-pills {
+    max-width: 370px;
+    background-color: var(--light);
+}
+.nav-pills .nav-link {
+    border-radius: 0;
+    padding: 24px;
+}
+.nav-pills .nav-link.active {
+    background-color: var(--theme);
+}
+.nav-pills .nav-link.active .project-detail-box h5,
+.nav-pills .nav-link.active .project-detail-box p {
+    color: var(--white);
+}
+.project-detail-box {
+    text-align: left;
+}
+@media screen and (max-width:768px) {
+    .our-project-box .image-box img {
+        margin-bottom: 40px;
+    }
+}
+/* Our Project Section End */
+
+/* Experts Growts Section Start */
+.growth-box {
+    padding: 30px;
+}
+.growth-box img {
+    margin-bottom: 10px;
+}
+.growth-box h1 {
+    font-family: var(--poppins-font);
+    line-height: 84px;
+    font-weight: 300;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.growth-box h5 {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.growth-box:hover {
+    cursor: pointer;
+    box-shadow: 3px 6px 20px var(--shadow);
+}
+/* Experts Growts Section End */
+
+/* Clients Feedback Section Start */
+figure {
+    max-width: 830px;
+    text-align: center;
+    margin: auto;
+    text-align: left;
+    background-image: url('../images/quotemarks-icon.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto;
+}
+blockquote {
+    padding-top: 18px;
+    margin: 0 0 16px 14px;
+}
+blockquote p {
+    font-size: 20px;
+    line-height: 31px;
+    margin-bottom: 24px;
+}
+.blockquote-footer::before {
+    content: "";
+}
+.blockquote-footer {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--poppins-font);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    color: var(--gray);
+}
+.blockquote-footer span {
+    font-weight: 700;
+    color: var(--theme);
+}
+/* Clients Feedback Section End */
+
+/* Footer Start */
+.footer-section {
+    padding: 124px 0;
+    background-color: var(--theme);
+}
+@media screen and (max-width:768px) {
+    .footer-section  {
+        padding: 40px 0;
+    }
+    .footer-brand-box img {
+        margin-bottom: 30px;  
+    }
+    .footer-brand-box .col-sm-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* Footer End */
